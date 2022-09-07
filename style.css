@@ -1,9 +1,15 @@
 @charset "utf-8";
-body {background-color:lightpink}
-	h1 {text-align: center; text-transform: uppercase}
-	p {font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
+	body {
+		background-color:lightpink
+	}
+	h1 {
+		text-align: center; text-transform: uppercase
+	}
+	p {
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	}
 	hr {
 	 	margin: auto;
- 	 	width: 90%;
-  		border: 1px solid #4E0204;
-		padding: 0px}
+ 	 	width: 100%;
+		border: 1px solid #4E0204
+	}
