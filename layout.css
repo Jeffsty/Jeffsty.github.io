@@ -3,13 +3,13 @@
 @import url("reset.css");
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Georgia;
     font-size: 13px;
     color:#333
 }
 
 p {
-    padding: 10px;
+    padding: 5px;
 }
 
 #wrapper {
@@ -25,10 +25,13 @@ p {
 
 #header {
     height: 75px;
-    background: #FF6633;
-    border-radius: 10px;
-    border: 1px solid #eb521f;
-    margin: 5px;
+    background: #33CCFF;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    margin: 0px;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 36px;
 }
 
 #navigationwrap {
@@ -39,10 +42,10 @@ p {
 
 #navigation {
     height: 40px;
-    background: #FFCC33;
-    border-radius: 10px;
-    border: 1px solid #ebb81f;
-    margin: 5px;
+    background: #33CCFF;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    margin: 0px;
 }
 
 #contentwrap {
@@ -53,9 +56,9 @@ p {
 
 #content {
     background: #FFFFFF;
-    border-radius: 10px;
-    border: 1px solid #ebebeb;
-    margin: 5px;
+    border-radius: 0px;
+    border: 0px solid #000000;
+    margin: 0px;
 }
 
 #leftcolumnwrap {
@@ -66,9 +69,9 @@ p {
 
 #leftcolumn {
     background: #33CCFF;
-    border-radius: 10px;
-    border: 1px solid #1fb8eb;
-    margin: 5px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    margin: 0px;
 }
 
 #rightcolumnwrap {
@@ -78,10 +81,10 @@ p {
 }
 
 #rightcolumn {
-    background: #CC33FF;
-    border-radius: 10px;
-    border: 1px solid #b81feb;
-    margin: 5px;
+    background: #33CCFF;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    margin: 0px;
 }
 
 #footerwrap {
@@ -93,9 +96,9 @@ p {
 
 #footer {
     height: 40px;
-    background: #33FF66;
-    border-radius: 10px;
-    border: 1px solid #1feb52;
-    margin: 5px;
+    background: #33CCFF;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    margin: 0px;
 }
 
