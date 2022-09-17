@@ -4,6 +4,17 @@
 <title>I have a website again ^_^</title>
 <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <link rel="stylesheet" type="text/css" href="layout.css" />
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#navigation").load("nav.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
 </head>
 <body>
     <div id="wrapper">
@@ -13,7 +24,7 @@
         </div>
         </div>
         <div id="navigationwrap">
-          <div id="navigation"><a href="index.html"> Home</a> | <a href="100days.html">#100DaysOfCode</a> |<a href="contact.html"> Contact </a></div>
+          <div id="navigation"></div>
         </div>
         <div id="leftcolumnwrap">
         <div id="leftcolumn">
