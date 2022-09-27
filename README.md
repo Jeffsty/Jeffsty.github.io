@@ -1,2 +1,2 @@
 # Jeffsty.github.io
-website
+Website created using The Odin Project's Landing Page project.
