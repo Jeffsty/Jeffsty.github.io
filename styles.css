@@ -1,48 +1,46 @@
 * {
-  /*border: 2px solid #000; /*for debugging*/
-    padding: 0px;
-    margin: 0px;
+  /*border: 2px solid #0ff; /*for debugging*/
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
   font-family: Verdana, 'Times New Roman', Times, serif;
   font-size: medium;
   max-width: 1000px;
-  background: radial-gradient(circle, #9c57c9 0%, #dd72c0 52%, rgba(127,190,203,1) 100%);
+  background: radial-gradient(circle, #9c57c9 0%, #dd72c0 52%, #7fbecb 100%);
   margin: auto;
   padding: 0px;
 }
 
 .container {
-  padding: 0px;
+  padding: 10px;
 }
 
 /* Style the header */
 .header {
-  padding: 0px;
+  padding: 20px;
   text-align: center;
   font-size: 24px;
-  color:beige;
+  color:whitesmoke;
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0px;
 }
 
 /* Container for flexboxes */
 .row {
   display: -webkit-flex;
   display: flex;
-  padding: 0px;
 }
 
 /* Create three unequal columns that sits next to each other */
 .column {
-  background-color: antiquewhite;
+  background-color:whitesmoke;
   margin: 10px;
-  padding: 0px;
 }
 
 /* Left and right column */
+/* I need to come back to this to work out height without hardcoding it in */
 .column.menu {
    -webkit-flex: 1;
    -ms-flex: 1;
@@ -57,7 +55,8 @@ body {
    position: -webkit-sticky; /* Safari */
    position: sticky;
    top: 50px;
-   padding: 0px;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 /* Middle column */
@@ -70,14 +69,15 @@ body {
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   box-shadow: 20px 12px 15px 1px rgba(0, 0, 0, .2);
-  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Style the footer */
 .footer {
-  padding: 0px;
+  padding: 10px;
   text-align: center;
-  color: antiquewhite;
+  color: whitesmoke;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -92,17 +92,14 @@ body {
 .responsive {
   max-width: 100%;
   height: auto;
-  padding: 0px;
 }
 
 nav {
   display: flex;
   flex-direction: column;
-  padding: 0px;
 }
 
 nav a {
- /* line-height: 50px;*/
   height: 100%;
   font-size: 18px;
   display: inline-block;
@@ -114,12 +111,13 @@ nav a {
   color: #9c57c9;
   cursor: pointer;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0px;
+  width: 110px;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 nav a:hover {
   background-color: #dd72c0;
-  /*line-height: 50px;*/
   height: 100%;
   display: inline-block;
   position: relative;
@@ -130,27 +128,32 @@ nav a:hover {
   color: white;
   cursor: pointer;
   border-radius: 5px;
-  padding: 0px;
+  width: 110px;
+  padding-top:5px;
+  padding-bottom:5px;
 }
 
 .nav_links {
-  padding: 0px;
+  padding-top: 5px;
 }
 
 .me {
   border-radius: 200px;
   width: 200px;
-  padding: 0px;
+  /*padding: 20px; maybe. come back to this*/
 }
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0px;
+  padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 h2 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .welcome {
@@ -158,48 +161,42 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px;
+  padding: 20px;
 }
 
 .welcome_text {
   font-size: 24px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 0px;
 }
 
 .welcome_image {
-  padding: 0px;
+  padding-right: 20px;
 }
 
 .projects {
-  padding: 0px;
+
 }
 
 .contact {
-  padding: 0px;
+  text-align: center;
 }
 
 .projects-grid {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid #000; */
   flex-direction: column;
   text-align: center;
-  padding: 0px;
 }
 
 .projects-grid-item {
-  border: 3px solid #500000;
+  border: 3px solid #dd72c0;
   border-radius: 10px;
   width: 110px;
   height: 110px;
   margin: 10px;
-  display: flex;
   background-color: #fff;
   justify-content: center;
-  padding: 0px;
 }
 
 .projects-grid-item-text {
@@ -208,18 +205,35 @@ h2 {
 
 .projects-grid-container {
   color: #000;
-  background-color: #fff;
   display: flex;
-  /*padding: 20px 150px;*/
   justify-content: center;
-  padding: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.welome-header {
-  padding: 0px;
+.welcome-header {
+  padding: 10px;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7fbecb; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9c57c9; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #623e7a; 
+}
 
 /*come back to this when light mode version is finished
 @media screen and (prefers-color-scheme: dark) {
