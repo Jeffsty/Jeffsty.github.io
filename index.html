@@ -1,66 +1,98 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
-    <title>Kirsty Jeffery</title>
-    <link rel='stylesheet' href='styles.css'/>
-  </head>
-  <body>
-    <div class='menu-container'>
-      <div class='menu'>
-        <div class='logo'>Kirsty Jeffery</div>
-            <div class='projects'><a href="#projects">Projects</a></div>
-            <div class='contact'><a href="#contact">Contact Me</a></div> 
-        </div>
-    </div>
-    <div class='header-container'>
-        <div class='header'>
-          <div class='hero'><strong>Welcome!</strong><p class="hero-secondary">I'm Kirsty, a Graduate Test Engineer and MSc Computing student from South Wales.</p></div>
-          <div class='logo'>
-            <img src='images/me.jpg' width="250px"/>
-            
-          </div>
-        </div>
-    </div>
-    <div class="information-container" id="projects">
-      <div class="information">Projects</div>
-    </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Kirsty Jeffery</title>
+</head>
+<body>
+  <div class="body">
 
+    <div class="container">
 
-      <div class='photo-grid-container'>
-        <div class='photo-grid'>
-          <div class='photo-grid-item'></div>
-          <div class='photo-grid-item-text'>LabVIEW
-            <!--<img src='images/awesome-logo.svg'/>
-            -->
-          </div>
-        </div>
-
-
-          <div class='photo-grid'>
-            <div class='photo-grid-item'></div>
-            <div class='photo-grid-item-text'>Python
-              <!--<img src='images/awesome-logo.svg'/>
-              -->
+      <div class="header">
+        <h2>Kirsty Jeffery</h2>
+      </div>
+    
+      <div class="row">
+        <div class="column menu">
+          <nav>
+            <div class="nav_links">
+              <a href="#">Home</a>
             </div>
-          </div>          
-    </div>
-<!--     <div class="quote-container">
-      <div class="quote"><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></div>
-      <div class="quote-ref">- Thor, God of Thunder</div>
-    </div> -->
+            <div class="nav_links">
+              <a href="#projects">Projects</a>
+            </div>
+            <div class="nav_links">
+              <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="column content">
+          <div class="welcome-header"><h1>Welcome!</h1></div>
+          <div class="welcome">
+            <div class="welcome_image">
+              <img class="me" src="images/me.jpg" alt="Nature" class="responsive">
+            </div>
+            <div class="welcome_text">
+              <p>I'm Kirsty, a Graduate Test Engineer and MSc Computing student from South Wales.</p>
+              <p>I mostly focus on LabVIEW and Python but like to have a go with web design when I can.
+            </div>
 
-    <div class="information-container" id="contact">
-      <div class="information">Contact Me</div>
-    </div>
-      <div class="contacttext">Coming soon... maybe. Or maybe not??????</div>
-      <div class="socials"><a href="http://www.twitter.com/kirstysees">Twitter</a> | <a href="https://github.com/Jeffsty">Github</a></div>
+          </div>
+          <div class="projects" id="projects">
+            <h2>Projects</h2>
+          </div>
+          <div class="projects-grid-container">
 
-    <div class="footer-container">
-      <div class='footer'>
-Copyright &copy; Kirsty Jeffery 2022</div>
+            <div class="projects-grid">
+              <div class="projects-grid-item">
+                <img src="images/me.jpg" alt="Nature">
+              </div>
+              <div class="projects-grid-item-text">
+                LabVIEW
+              </div>
+            </div>  
 
-      </div> 
+              <div class="projects-grid">
+                <div class="projects-grid-item">
+                  <img src="images/me.jpg" alt="Nature">
+                </div>
+                <div class="projects-grid-item-text">
+                  Python
+                </div>
+              </div>  
+              
+              <div class="projects-grid">
+                <div class="projects-grid-item">
+                  <img src="images/me.jpg" alt="Nature">
+                </div>
+                <div class="projects-grid-item-text">
+                  Web Design
+                </div>
+              </div>  
+              
+            </div>
+
+
+          <div class="contact">
+            <h2 id="contact">Contact</h2>
+            <p>Email | Twitter | Github</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer">
+        <p>
+          Copyright © Kirsty Jeffery 2022
+        </p>
+      </div>
+
     </div>
-  </body>
+
+  </div>
+</body>
 </html>
+
+
