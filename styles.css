@@ -165,7 +165,7 @@ h2 {
 }
 
 .welcome_text {
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -227,7 +227,8 @@ h2 {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #9c57c9; 
+  background: #9c57c9;
+  border-radius: 10px; 
 }
 
 /* Handle on hover */
