@@ -51,7 +51,7 @@ body {
    border-bottom-right-radius: 10px;
    height: 150px;
    text-align: center;
-   box-shadow: -12px 12px 15px 1px rgba(0, 0, 0, .2);
+   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
    position: -webkit-sticky; /* Safari */
    position: sticky;
    top: 50px;
@@ -68,7 +68,7 @@ body {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-  box-shadow: 20px 12px 15px 1px rgba(0, 0, 0, .2);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -192,6 +192,7 @@ h2 {
 .projects-grid-item {
   border: 3px solid #dd72c0;
   border-radius: 10px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
   width: 110px;
   height: 110px;
   margin: 10px;
@@ -236,6 +237,28 @@ h2 {
   background: #623e7a; 
 }
 
+a {
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  color: #9c57c9;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  background-color: #dd72c0;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 /*come back to this when light mode version is finished
 @media screen and (prefers-color-scheme: dark) {
   body {
@@ -257,3 +280,6 @@ h2 {
     color: #500000;
   }
 }*/
+
+
+
